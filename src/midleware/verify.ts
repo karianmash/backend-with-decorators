@@ -15,7 +15,7 @@ export function verifyToken(
 
     if (!token) {
       return res.status(401).json({
-        message: "You are not allowed to access this route",
+        message: "You are not allowed to access this route!",
       });
     }
 
